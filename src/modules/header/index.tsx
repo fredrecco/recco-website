@@ -45,7 +45,7 @@ const Header = (): JSX.Element => {
           />
         </div>
       </motion.nav>
-      <Drawer right={drawer} onClick={() => setDrawer("-100%")} />
+      <Drawer right={drawer} onClick={handleDrawer} />
     </div>
   );
 };

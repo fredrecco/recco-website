@@ -1,5 +1,7 @@
+import { MouseEventHandler } from "react";
+
 type Props = {
-  onClick: any;
+  onClick: MouseEventHandler<HTMLAnchorElement>;
   right: string;
 };
 
