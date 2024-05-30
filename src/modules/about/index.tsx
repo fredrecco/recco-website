@@ -27,9 +27,18 @@ const About = (): JSX.Element => {
             person and as a professional.
           </p>
           <div className="flex justify-start items-center py-10 space-x-8">
-            <Github />
-            <Linkedin />
-            <Mail />
+            <a href="https://github.com/fredrecco" rel="noopener noreferrer">
+              <Github />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fred-recco-a95144259/"
+              rel="noopener noreferrer"
+            >
+              <Linkedin />
+            </a>
+            <a href="mailto:recco.fred01@gmail.com" rel="noopener noreferrer">
+              <Mail />
+            </a>
           </div>
         </div>
       </div>
